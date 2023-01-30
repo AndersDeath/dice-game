@@ -9,9 +9,9 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    border-radius: 20px;
-    border: 8px solid #000;
-
+    border-radius: 30px;
+    border: 15px solid #000;
+    margin: 10px;
 }
 
 .column {
