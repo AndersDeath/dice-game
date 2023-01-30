@@ -39,7 +39,43 @@
 .number-1 .mod-3-1,
 .number-1 .mod-3-2,
 .number-1 .mod-3-3
+{
+    display: none;
+}
 
+.number-2 .mod-1-1,
+.number-2 .mod-1-2,
+.number-2 .mod-2-2,
+.number-2 .mod-3-2,
+.number-2 .mod-3-3
+{
+    display: none;
+}
+
+.number-3 .mod-1-1,
+.number-3 .mod-1-2,
+.number-3 .mod-3-2,
+.number-3 .mod-3-3
+{
+    display: none;
+}
+
+.number-4 .mod-1-2,
+.number-4 .mod-2-2,
+.number-4 .mod-3-2,
+.number-4 .mod-3-2
+{
+    display: none;
+}
+
+.number-5 .mod-1-2,
+.number-5 .mod-3-2,
+.number-5 .mod-3-2
+{
+    display: none;
+}
+
+.number-6 .mod-2-2
 {
     display: none;
 }
