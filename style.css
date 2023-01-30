@@ -26,11 +26,11 @@
 }
 
 .dot {
-    width: 35px;
-    height: 35px;
-    border-radius: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
     background: #000;
-    margin: calc(55% - 20px) 0 0 calc(60% - 20px)
+    margin: calc(40% - 20px) 0 0 calc(45% - 20px)
 }
 
 .number-1 .mod-1-1,
