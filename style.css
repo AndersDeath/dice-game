@@ -98,3 +98,32 @@
     font-size: 32px;
     border-radius: 12px;
 }
+
+.scores {
+    margin-top: 10px;
+    border: 15px solid #000;
+    border-radius: 15px;
+    display: none;
+}
+
+.score-line {
+    display: flex;
+    flex-direction: row;
+}
+
+.score-cell {
+    display: flex;
+    flex-direction: column;
+    flex:0 1 50%;
+    text-align: center;
+    font-size: 32px;
+    padding: 10px 0 10px 0;
+    border-bottom: 15px solid #000;
+
+}
+.score-line:last-child .score-cell {
+    border-bottom: none;
+}
+.score-cell:last-child {
+    border-left: 15px solid #000;
+}
