@@ -3,6 +3,16 @@
     padding: 0;
 }
 
+.app {
+    margin: 0 auto;
+    width: 700px;
+}
+
+.cubics {
+    display: flex;
+    flex-direction: row;
+}
+
 .box {
     width: 300px;
     height: 300px;
@@ -78,4 +88,13 @@
 .number-6 .mod-2-2
 {
     display: none;
+}
+
+.throw-cubics {
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    background: #ccc;
+    cursor: pointer;
+    font-size: 32px;
+    border-radius: 12px;
 }

@@ -27,9 +27,10 @@ const setNumber = (el, num) => {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    document.querySelector('.setBox1').addEventListener('click', () => {
-        let num =roll();
-        console.log(num);
-        setNumber(document.querySelector('.box'), num);
+    document.querySelector('.throw-cubics').addEventListener('click', () => {
+        let num = roll();
+        setNumber(document.querySelector('.box-1'), num);
+        num = roll();
+        setNumber(document.querySelector('.box-2'), num);
     })
 });
