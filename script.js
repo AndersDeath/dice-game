@@ -29,7 +29,7 @@ const setNumber = (el, num) => {
 const createLine = (num1, num2) => {
     return `
     <div class="score-cell">${num1}</div>
-    <div class="score-cell">${num1}</div>`;
+    <div class="score-cell">${num2}</div>`;
 }
 
 const scores = [];
